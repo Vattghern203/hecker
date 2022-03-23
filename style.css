@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+    --bg-main: black;
+    --font-main: 'cmd';
+    --font-color-main: white;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-main);
+    text-align: left;
+    color: var(--font-color-main);
+    font-family: 'Windows Command Prompt Regular', sans-serif;
+    font-size: large;
+}
+
+textarea {
+    background-color: var(--bg-main);
+    color: var(--font-color-main);
+    resize: unset;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Windows Command Prompt Regular', sans-serif;
+    font-size: large;
+    hyphens: auto;
+    hyphenate-character: "_";
+}
+
+textarea:focus {
+    outline: none;
+}
